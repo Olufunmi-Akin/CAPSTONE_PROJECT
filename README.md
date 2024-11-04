@@ -81,6 +81,8 @@ The project focuses on analyzing a dataset containing transaction records, inclu
 
 ![image](https://github.com/user-attachments/assets/80f19360-3a63-432c-b470-afe205bf6f8b)
 
+![image](https://github.com/user-attachments/assets/5be356b2-5cf5-4926-b2f8-8f01b4e60d0b)
+
 ### Insights:
 The insights derived from the SalesData analysis will empower stakeholders to:
 - Make data-driven decisions to boost sales performance.
@@ -93,8 +95,7 @@ This project lays the foundation for continuous sales performance monitoring and
 
 ### DASHBOARD HIGHLIGHT KEY VISUALS
 
-
-
+![image](https://github.com/user-attachments/assets/93f5d305-cc87-44c2-b424-1b87056c0784)
 
 
 
