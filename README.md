@@ -63,18 +63,26 @@ The project focuses on analyzing a dataset containing transaction records, inclu
    
 ![image](https://github.com/user-attachments/assets/441123ea-3fe8-41b6-a1a8-3780405aca4c)
 
-![image](https://github.com/user-attachments/assets/e2a652fb-bd3e-472f-b648-eb8003dc85e7)
+![image](https://github.com/user-attachments/assets/5e81105a-818f-440b-a6ad-de81cf6e350f)
 
 ![image](https://github.com/user-attachments/assets/0c5d3c58-5d7a-42f8-872e-1253775f33fa)
 
-- *Insight*:
-
 2. Top Products
 
+![image](https://github.com/user-attachments/assets/c851d21c-0fce-4c21-a29c-b9acf316089c)
 
-3. 
+![image](https://github.com/user-attachments/assets/52268455-b7c1-4668-b404-03dbf90d15a2)
 
-### Expected Impact:
+![image](https://github.com/user-attachments/assets/891d9062-c7c6-4c98-b550-154e0672e57a)
+
+3. Regional Breakdowns
+
+![image](https://github.com/user-attachments/assets/960d9911-a9fc-4398-8625-8262801b0c04)
+
+
+
+
+### Impact:
 The insights derived from the SalesData analysis will empower stakeholders to:
 - Make data-driven decisions to boost sales performance.
 - Identify and leverage top-performing products and regions.
