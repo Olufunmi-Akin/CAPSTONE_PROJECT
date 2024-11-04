@@ -58,7 +58,16 @@ The project focuses on analyzing a dataset containing transaction records, inclu
 3. Power BI Dashboard:
 - Interactive dashboard showcasing a sales overview, top products, and regional breakdowns.
 - Filters and slicers for dynamic exploration of the data.
+
+### Expected Impact:
+The insights derived from the SalesData analysis will empower stakeholders to:
+- Make data-driven decisions to boost sales performance.
+- Identify and leverage top-performing products and regions.
+- Improve customer targeting and retention strategies.
+- Enhance operational efficiency by identifying bottlenecks and opportunities.
   
+This project lays the foundation for continuous sales performance monitoring and strategic planning, fostering growth and competitive advantage.
+
 1. Sales Overview
    
 ![image](https://github.com/user-attachments/assets/441123ea-3fe8-41b6-a1a8-3780405aca4c)
@@ -83,19 +92,7 @@ The project focuses on analyzing a dataset containing transaction records, inclu
 
 ![image](https://github.com/user-attachments/assets/5be356b2-5cf5-4926-b2f8-8f01b4e60d0b)
 
-### Insights:
-The insights derived from the SalesData analysis will empower stakeholders to:
-- Make data-driven decisions to boost sales performance.
-- Identify and leverage top-performing products and regions.
-- Improve customer targeting and retention strategies.
-- Enhance operational efficiency by identifying bottlenecks and opportunities.
-  
-This project lays the foundation for continuous sales performance monitoring and strategic planning, fostering growth and competitive advantage.
-
-
 ### DASHBOARD HIGHLIGHT KEY VISUALS
 
 ![image](https://github.com/user-attachments/assets/93f5d305-cc87-44c2-b424-1b87056c0784)
-
-
 
