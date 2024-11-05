@@ -65,7 +65,7 @@ The insights derived from the SalesData analysis will empower stakeholders to:
 SELECT * FROM SalesData;
 
 --- 1. retrieve the total sales for each product category.---
-SELECT Product, SUM(UnitPrice * Quantity) AS TotalSales
+- SELECT Product, SUM(UnitPrice * Quantity) AS TotalSales
 FROM SalesData
 GROUP BY Product
 
