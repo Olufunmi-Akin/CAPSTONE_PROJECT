@@ -1,6 +1,6 @@
 # CAPSTONE_PROJECT
 
-### Project Title :  Sales Performance Analysis for a Retail Store
+### Project Title :  Sales Performance Analysis for a Retail Store (F.M Stores)
 
 ### Project Objective 
 The SalesData analysis project aims to provide comprehensive insights into the sales performance across various dimensions such as product, region, and time. By leveraging data analytics, the project seeks to uncover patterns, trends, and actionable insights to support strategic decision-making, optimize sales operations, and enhance overall business performance.
