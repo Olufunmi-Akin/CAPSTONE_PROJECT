@@ -45,6 +45,13 @@ The project focuses on analyzing a dataset containing transaction records, inclu
 4. Advanced Analysis:
 - SQL queries to extract specific insights, such as monthly sales totals, top customers, and regional performance.
 - DAX measures in Power BI for dynamic calculations and insights.
+
+### Expected Impact:
+The insights derived from the SalesData analysis will empower stakeholders to:
+- Make data-driven decisions to boost sales performance.
+- Identify and leverage top-performing products and regions.
+- Improve customer targeting and retention strategies.
+- Enhance operational efficiency by identifying bottlenecks and opportunities.
   
 ### Deliverables:
 1. Excel Report: [Download Here](https://onedrive.live.com/personal/281b96814f584b5c/_layouts/15/doc.aspx?resid=845e85eb-85f5-409c-a830-3496c8d93a31&cid=281b96814f584b5c&wdOrigin=MARKETING.FREE.GO-TO-EXCEL%2CAPPHOME-WEB.FILEBROWSER.RECENT&wdPreviousSession=c3b51228-c0e6-46b7-af95-0618f2293007&wdPreviousSessionSrc=AppHomeWeb&ct=1730741765374)
@@ -58,15 +65,6 @@ The project focuses on analyzing a dataset containing transaction records, inclu
 3. Power BI Dashboard:
 - Interactive dashboard showcasing a sales overview, top products, and regional breakdowns.
 - Filters and slicers for dynamic exploration of the data.
-
-### Expected Impact:
-The insights derived from the SalesData analysis will empower stakeholders to:
-- Make data-driven decisions to boost sales performance.
-- Identify and leverage top-performing products and regions.
-- Improve customer targeting and retention strategies.
-- Enhance operational efficiency by identifying bottlenecks and opportunities.
-  
-This project lays the foundation for continuous sales performance monitoring and strategic planning, fostering growth and competitive advantage.
 
 1. Sales Overview
    
@@ -95,4 +93,16 @@ This project lays the foundation for continuous sales performance monitoring and
 ### DASHBOARD HIGHLIGHT KEY VISUALS
 
 ![image](https://github.com/user-attachments/assets/93f5d305-cc87-44c2-b424-1b87056c0784)
+
+### Key Findings
+1. Total Revenue
+The overall revenue generated from all sales is substantial, indicating strong sales performance across various products and regions.
+
+2. Top-Performing Products
+- Shoes, Shirt, Hats and Gloves products consistently generate higher revenue but Shoes having the highest revenue. There should be a focus on inventory to maintain this trend and marketing efforts to boost sales on Jackets and socks.
+
+3. 
+
+### Conclusion
+This project lays the foundation for continuous sales performance monitoring and strategic planning, fostering growth and competitive advantage.
 
