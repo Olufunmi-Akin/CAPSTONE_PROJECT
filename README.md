@@ -88,11 +88,11 @@ The insights derived from the SalesData analysis will empower stakeholders to:
 
 ![image](https://github.com/user-attachments/assets/80f19360-3a63-432c-b470-afe205bf6f8b)
 
-![image](https://github.com/user-attachments/assets/5be356b2-5cf5-4926-b2f8-8f01b4e60d0b)
+![image](https://github.com/user-attachments/assets/a0812091-252d-4d46-8e31-f4dd871297ea)
 
 ### DASHBOARD HIGHLIGHT KEY VISUALS
 
-![image](https://github.com/user-attachments/assets/93f5d305-cc87-44c2-b424-1b87056c0784)
+![image](https://github.com/user-attachments/assets/b02f135e-a491-4e98-8ad2-d4a34609c615)
 
 ### Key Findings
 1. Total Revenue
@@ -101,7 +101,8 @@ The overall revenue generated from all sales is substantial, indicating strong s
 2. Top-Performing Products
 - Shoes, Shirt, Hats and Gloves products consistently generate higher revenue but Shoes having the highest revenue. There should be a focus on inventory to maintain this trend and marketing efforts to boost sales on Jackets and socks.
 
-3. 
+3.  Regional Sales Distribution
+- East, West, South and North regions contribute differently to the total sales. South region shows the highest revenue which indicates a more effective sales strategy or higher market demand in that area. North and West may need targeted strategies to improve sales.
 
 ### Conclusion
 This project lays the foundation for continuous sales performance monitoring and strategic planning, fostering growth and competitive advantage.
