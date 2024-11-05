@@ -54,11 +54,11 @@ The insights derived from the SalesData analysis will empower stakeholders to:
 - Enhance operational efficiency by identifying bottlenecks and opportunities.
   
 ### Deliverables:
-1. Excel Report: [Download Here](https://onedrive.live.com/personal/281b96814f584b5c/_layouts/15/doc.aspx?resid=845e85eb-85f5-409c-a830-3496c8d93a31&cid=281b96814f584b5c&wdOrigin=MARKETING.FREE.GO-TO-EXCEL%2CAPPHOME-WEB.FILEBROWSER.RECENT&wdPreviousSession=c3b51228-c0e6-46b7-af95-0618f2293007&wdPreviousSessionSrc=AppHomeWeb&ct=1730741765374)
+A. Excel Report: [Download Here](https://onedrive.live.com/personal/281b96814f584b5c/_layouts/15/doc.aspx?resid=845e85eb-85f5-409c-a830-3496c8d93a31&cid=281b96814f584b5c&wdOrigin=MARKETING.FREE.GO-TO-EXCEL%2CAPPHOME-WEB.FILEBROWSER.RECENT&wdPreviousSession=c3b51228-c0e6-46b7-af95-0618f2293007&wdPreviousSessionSrc=AppHomeWeb&ct=1730741765374)
 - Summarized data with pivot tables and calculated metrics.
 - Visual representations of key insights through charts.
   
-2. SQL Queries:
+B. SQL Queries:
 - Repository of SQL queries used to extract key insights.
 - Documentation of findings from the SQL analysis.
 
@@ -112,7 +112,7 @@ WHERE OrderDate BETWEEN '2024-06-01' AND '2024-08-31'
 GROUP BY Product
 HAVING SUM(UnitPrice * Quantity) = 0
   
-3. Power BI Dashboard:
+C. Power BI Dashboard:
 - Interactive dashboard showcasing a sales overview, top products, and regional breakdowns.
 - Filters and slicers for dynamic exploration of the data.
 
