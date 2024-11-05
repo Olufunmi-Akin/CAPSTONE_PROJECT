@@ -95,14 +95,20 @@ The insights derived from the SalesData analysis will empower stakeholders to:
 ![image](https://github.com/user-attachments/assets/b02f135e-a491-4e98-8ad2-d4a34609c615)
 
 ### Key Findings
-1. Total Revenue
-The overall revenue generated from all sales is substantial, indicating strong sales performance across various products and regions.
+1. Sales Trends Over Time
+- Looking at the sales trend, there is a flunctuation through out the year. There was a decline in sales in January, a groth in February, which drops again in March and remained unstable over time, leaving February to having the peak sales.
 
 2. Top-Performing Products
 - Shoes, Shirt, Hats and Gloves products consistently generate higher revenue but Shoes having the highest revenue. There should be a focus on inventory to maintain this trend and marketing efforts to boost sales on Jackets and socks.
 
 3.  Regional Sales Distribution
 - East, West, South and North regions contribute differently to the total sales. South region shows the highest revenue which indicates a more effective sales strategy or higher market demand in that area. North and West may need targeted strategies to improve sales.
+
+### Recommendations:
+- Focus on High-Performing Products and Regions: Enhance marketing and stock for top products and regions.
+- Analyze Low-Performing Areas: Develop strategies to boost sales in lower-performing regions.
+- Seasonal Promotions: Leverage peak sales months for targeted promotions.
+- Customer Loyalty Programs: Implement strategies to retain customers in high-performing regions.
 
 ### Conclusion
 This project lays the foundation for continuous sales performance monitoring and strategic planning, fostering growth and competitive advantage.
