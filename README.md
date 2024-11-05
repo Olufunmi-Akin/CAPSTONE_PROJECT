@@ -69,44 +69,44 @@ SELECT * FROM SalesData;
 FROM SalesData
 GROUP BY Product
 
---- 2. find the number of sales transactions in each region.
-SELECT Region, COUNT(*) AS NumberOfSales
+--- 2. find the number of sales transactions in each region.---
+- SELECT Region, COUNT(*) AS NumberOfSales
 FROM SalesData
 GROUP BY Region
 
 -- 3. find the highest-selling product by total sales value.--
-SELECT SELECT Product, SUM(UnitPrice * Quantity) AS TotalSales
+- SELECT SELECT Product, SUM(UnitPrice * Quantity) AS TotalSales
 FROM SalesData
 GROUP BY Product
 ORDER BY TotalSales DESC
 
 --- 4. calculate total revenue per product.---
-SELECT Product, SUM(UnitPrice * Quantity) AS TotalRevenue
+- SELECT Product, SUM(UnitPrice * Quantity) AS TotalRevenue
 FROM SalesData
 GROUP BY Product
 
 -- 5. calculate monthly sales totals for the current year
-SELECT MONTH(OrderDate) AS Month, SUM(UnitPrice * Quantity) AS MonthlySales
+- SELECT MONTH(OrderDate) AS Month, SUM(UnitPrice * Quantity) AS MonthlySales
 FROM SalesData
 WHERE YEAR(OrderDate) = 2024
 GROUP BY MONTH(OrderDate)
 ORDER BY Month
 
 -- 6. find the top 5 customers by total purchase amount.---
-SELECT customer_id, SUM(UnitPrice * Quantity) AS TotalPurchase
+- SELECT customer_id, SUM(UnitPrice * Quantity) AS TotalPurchase
 FROM SalesData
 GROUP BY customer_id
 ORDER BY TotalPurchase DESC
 
 -- 7. calculate the percentage of total sales contributed by each region.---
-SELECT Region, 
+- SELECT Region, 
 SUM(UnitPrice * Quantity) AS RegionalSales,
 (SUM(UnitPrice * Quantity) / (SELECT SUM(UnitPrice * Quantity) FROM CapstoneSalesData) * 100) AS SalesPercentage
 FROM SalesData
 GROUP BY Region
 
 -- 8. identify products with no sales in the last quarter.---
-SELECT Product
+- SELECT Product
 FROM SalesData
 WHERE OrderDate BETWEEN '2024-06-01' AND '2024-08-31'
 GROUP BY Product
