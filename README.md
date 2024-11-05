@@ -3,7 +3,7 @@
 ### Project Title :  Sales Performance Analysis for a Retail Store (F.M Stores)
 
 ### Project Objective 
-The SalesData analysis project aims to provide comprehensive insights into the sales performance across various dimensions such as product, region, and time. By leveraging data analytics, the project seeks to uncover patterns, trends, and actionable insights to support strategic decision-making, optimize sales operations, and enhance overall business performance.
+The Sales Data analysis project aims to provide comprehensive insights into the sales performance across various dimensions such as product, region, and time. By leveraging data analytics, the project seeks to uncover patterns, trends, and actionable insights to support strategic decision-making, optimize sales operations, and enhance overall business performance.
 
 ### Data Sources
 The dataset was derived from the Sales Data provided from the Sales Department of F.M Stores. The Data given is a table that have an array of columns like OrderID, Customer Id, Product, Region, OrderDate, Quantity Sold and UnitPrice.
