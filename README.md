@@ -112,7 +112,7 @@ WHERE OrderDate BETWEEN '2024-06-01' AND '2024-08-31'
 GROUP BY Product
 HAVING SUM(UnitPrice * Quantity) = 0
   
-C. Power BI Dashboard:[Click Here](C:\Users\Funmi Akintimehin\Downloads)
+C. Power BI Dashboard:[Download Here](C:\Users\Funmi Akintimehin\Downloads)
 - Interactive dashboard showcasing a sales overview, top products, and regional breakdowns.
 - Filters and slicers for dynamic exploration of the data.
 
