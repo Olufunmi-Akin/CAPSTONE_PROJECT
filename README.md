@@ -1,4 +1,4 @@
-# CAPSTONE_PROJECT
+# CAPSTONE_PROJECT 1
 
 ### Project Title :  Sales Performance Analysis for a Retail Store (F.M Stores)
 
@@ -58,9 +58,59 @@ The insights derived from the SalesData analysis will empower stakeholders to:
 - Summarized data with pivot tables and calculated metrics.
 - Visual representations of key insights through charts.
   
-2. SQL Queries: [Download Here](https://docs.google.com/document/d/1Iqr64-SBlx-ohqHYBPbggUwVdw7DMA-7UPVU2yQJg5c/edit?tab=t.0)
+2. SQL Queries:
 - Repository of SQL queries used to extract key insights.
 - Documentation of findings from the SQL analysis.
+
+SELECT * FROM SalesData;
+
+--- 1. retrieve the total sales for each product category.---
+SELECT Product, SUM(UnitPrice * Quantity) AS TotalSales
+FROM SalesData
+GROUP BY Product
+
+--- 2. find the number of sales transactions in each region.
+SELECT Region, COUNT(*) AS NumberOfSales
+FROM SalesData
+GROUP BY Region
+
+-- 3. find the highest-selling product by total sales value.--
+SELECT SELECT Product, SUM(UnitPrice * Quantity) AS TotalSales
+FROM SalesData
+GROUP BY Product
+ORDER BY TotalSales DESC
+
+--- 4. calculate total revenue per product.---
+SELECT Product, SUM(UnitPrice * Quantity) AS TotalRevenue
+FROM SalesData
+GROUP BY Product
+
+-- 5. calculate monthly sales totals for the current year
+SELECT MONTH(OrderDate) AS Month, SUM(UnitPrice * Quantity) AS MonthlySales
+FROM SalesData
+WHERE YEAR(OrderDate) = 2024
+GROUP BY MONTH(OrderDate)
+ORDER BY Month
+
+-- 6. find the top 5 customers by total purchase amount.---
+SELECT customer_id, SUM(UnitPrice * Quantity) AS TotalPurchase
+FROM SalesData
+GROUP BY customer_id
+ORDER BY TotalPurchase DESC
+
+-- 7. calculate the percentage of total sales contributed by each region.---
+SELECT Region, 
+SUM(UnitPrice * Quantity) AS RegionalSales,
+(SUM(UnitPrice * Quantity) / (SELECT SUM(UnitPrice * Quantity) FROM CapstoneSalesData) * 100) AS SalesPercentage
+FROM SalesData
+GROUP BY Region
+
+-- 8. identify products with no sales in the last quarter.---
+SELECT Product
+FROM SalesData
+WHERE OrderDate BETWEEN '2024-06-01' AND '2024-08-31'
+GROUP BY Product
+HAVING SUM(UnitPrice * Quantity) = 0
   
 3. Power BI Dashboard:
 - Interactive dashboard showcasing a sales overview, top products, and regional breakdowns.
