@@ -1,4 +1,4 @@
-# CAPSTONE_PROJECT 1
+# CAPSTONE_PROJECT - 1
 
 ### Project Title :  Sales Performance Analysis for a Retail Store (F.M Stores)
 
